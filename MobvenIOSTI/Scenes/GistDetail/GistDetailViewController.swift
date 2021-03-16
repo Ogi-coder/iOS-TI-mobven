@@ -68,6 +68,7 @@ final class GistDetailViewController: UIViewController {
     }
     
     @IBAction func selectURL() {
+        //couldnt find url but here is the presenter
         if let url = URL(string: "some.gists.url") {
             
                 let safari = SFSafariViewController(url: url)
