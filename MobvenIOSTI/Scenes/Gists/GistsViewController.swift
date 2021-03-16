@@ -54,7 +54,7 @@ final class GistsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         interactor?.fetchGists(request: Gists.Fetch.Request())
-        
+        //responsive tableView
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = UITableView.automaticDimension
     }
