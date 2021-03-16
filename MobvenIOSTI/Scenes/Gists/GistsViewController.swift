@@ -60,6 +60,7 @@ final class GistsViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        //get bundle info
         let nsObject: AnyObject? = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as AnyObject
         let version = nsObject as! String
         print(version)
